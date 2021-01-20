@@ -41,3 +41,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Backround
+    uniqueID: 3986274657
+    locked: 0
+  - name: Platform
+    uniqueID: 345330647
+    locked: 0
+  - name: Decoration
+    uniqueID: 3703748165
+    locked: 0
+  - name: Foreground
+    uniqueID: 2634879023
+    locked: 0
+  - name: Player
+    uniqueID: 3970656707
+    locked: 0
+  - name: New Layer
+    uniqueID: 3057047503
+    locked: 0
