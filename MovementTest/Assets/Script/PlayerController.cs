@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
     public float movementSpeed;
     public float jumpForce;
     public float groundCheckRadius;
+   
 
 
     public bool isGrounded;
@@ -25,6 +26,8 @@ public class PlayerController : MonoBehaviour
     #region
     private float movementInputDirection;
 
+
+    
     #endregion
 
    
@@ -84,6 +87,7 @@ public class PlayerController : MonoBehaviour
     {
         if (canJump && isGrounded)
         {
+
             rb.velocity = new Vector2(rb.velocity.x,jumpForce);
             canJump = false;
         }
